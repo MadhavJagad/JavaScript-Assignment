@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Write a function greetUser that accepts a user’s name as a parameter and display a greeting message (e.g., "Hello, John!"). -->
+
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="greetUser()">Click Me</button>
+
+    <script>
+
+        function greetUser() {
+            const name = document.getElementById("nameInput").value
+            alert("Hello, " + name + "!");
+        }
+
+
+    </script>
+</body>
+
+</html>

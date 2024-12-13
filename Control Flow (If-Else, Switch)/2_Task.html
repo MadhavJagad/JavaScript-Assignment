@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Create a JavaScript program using a switch statement to display the day of the week based on the user input (e.g., 1
+    for Monday, 2 for Tuesday, etc.). -->
+    <script>
+        let dayNumber = parseInt(prompt("Enter a number between 1 and 7:"));
+        let dayName;
+
+        switch (dayNumber) {
+            case 1:
+                dayName = "Monday";
+                break;
+            case 2:
+                dayName = "Tuesday";
+                break;
+            case 3:
+                dayName = "Wednesday";
+                break;
+            case 4:
+                dayName = "Thursday";
+                break;
+            case 5:
+                dayName = "Friday";
+                break;
+            case 6:
+                dayName = "Saturday";
+                break;
+            case 7:
+                dayName = "Sunday";
+                break;
+            default:
+                dayName = "Invalid day number. Please enter a number between 1 and 7.";
+        }
+
+        document.write("The day of the week is: " + dayName);
+    </script>
+</body>
+
+</html>

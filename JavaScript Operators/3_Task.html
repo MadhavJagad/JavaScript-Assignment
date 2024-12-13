@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Use logical operators to check if both conditions (e.g., a > 10 and b < 5)are true. -->
+
+    <script>
+        var a = 15;
+        var b = 3;
+
+        if (a > 10 && b < 5) {
+            console.log("Both conditions are true");
+        } else {
+            console.log("At least one condition is false");
+        }
+
+        if (a > 10 || b < 5) {
+            console.log("At least one condition is true");
+        } else {
+            console.log("Both conditions are false");
+        }
+
+        if (!(a > 10 && b < 5)) {
+            console.log("Both conditions are not true");
+        } else {
+            console.log("At least one condition is true");
+        }
+
+        if (!(a > 10 || b < 5)) {
+            console.log("At least one condition is not true");
+        } else {
+            console.log("Both conditions are true");
+        }
+
+    </script>
+</body>
+
+</html>

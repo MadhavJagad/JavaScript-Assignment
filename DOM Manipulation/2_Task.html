@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Use JavaScript to:
+    • Change the text inside the paragraph to "JavaScript is fun!".
+    • Change the color of the paragraph to blue. -->
+
+    <p id="para">
+        JavaScript is a programming language.
+    </p>
+    <button onclick="changeText()">Click here for text</button>
+    <button onclick="changeColor()">Click here for color</button>
+
+    <script>
+        let para = document.getElementById("para")
+        function changeText() {
+            para.innerHTML = "JavaScript is fun"
+        }
+        function changeColor() {
+            para.style.color = "blue"
+        }
+    </script>
+</body>
+
+</html>
